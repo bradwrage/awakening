@@ -1,0 +1,103 @@
+//---------- Top-nav
+header {
+	.logo {
+		padding-top: 70px;
+		background: url('/assets/images/logo.png') no-repeat center center;
+    height: 28px;
+    width: 208px;
+		a {
+			color: #333;
+		}
+	}
+	height: 60px;
+	.top-nav {
+		@include font-stack-avenir;
+		text-transform: uppercase;
+		list-style: none;
+		float: right;
+		padding-top: 10px;
+		li {
+			float: left;
+			display: inline;
+		}
+		a {
+			color: #000000;
+			display: inline-block;
+			padding: 17px 10px 10px 10px;
+		}
+	}
+}
+
+.nav-drop {
+	position: relative;
+	background-color: gray;
+	height: 40px;
+	width: 100%;
+	margin-bottom: 20px;
+	.sub-nav1 {
+		float: right;
+		margin-bottom: 0px;
+		li {
+			float: left;
+			display: inline;
+			a {
+				color: white;
+				display: inline-block;
+				padding: 5px;
+			}
+		}
+	}
+}
+	.arrow-up {
+	width: 0; 
+	height: 0; 
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-bottom: 10px solid gray;
+	position: absolute;
+	top: 50px;
+	right: 346px;
+	}
+// End Top Nav
+.hero {
+	height: 100%;
+	width: 100%; 
+	margin: auto;
+	.hero-pic {
+		background-color: gray;
+		border-bottom: 1px solid gray;
+		background-position: center center;
+		background-size: cover;
+		background-image: url('/assets/images/wash.jpg');
+		height: 100%;
+		width: 100%;
+	}
+}
+
+.orbit-container {
+	background:  rgba(0, 0, 0, 0) !important;
+}
+.orbit-slide-number {
+	display: none !important;
+}
+.orbit-timer {
+	display: none !important;
+}
+.orbit-prev {display: none !important;}
+.orbit-next {display: none !important;}
+.orbit-caption {display: none !important;}
+.orbit-bullets {
+	display: table;
+	top: -40px !important;
+	li {
+		text-align: center;
+		margin: 5px;
+
+	}
+}
+
+// ------------------------ Featured 
+
+.featured {
+	margin-bottom: 60px;
+}

@@ -1,0 +1,45 @@
+.footer-background {
+	background-color: #626262;
+	height: 175px;
+	h4 {
+		font-size: 18px;
+		font-weight: 300;
+		color: white;
+		padding-top: 10px;
+	}
+	p {
+		font-size: 12px;
+		font-weight: 400;
+		color: white;
+		margin-bottom: 2px;
+		line-height: 16px;
+	}
+	a {
+		font-size: 12px;
+		color: #d2ba39;
+	}
+}
+
+.bottom-foot {
+	.bottom-box {
+		margin-top: 20px;
+	}
+	height:60px;
+	.bottominfo {
+		font-size: 12px;
+	}
+}
+
+.footerul {
+	margin-bottom: 0px !important;
+	li {
+		list-style: none;
+		padding: 2px;
+		line-height: 16px;
+	}
+}
+
+.footerevent {
+	margin-top: 0px !important;
+	padding-top: 0px !important;
+}
