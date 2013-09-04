@@ -7292,31 +7292,36 @@ header .top-nav a {
 }
 
 /* line 31, ../sass/_styles.scss */
+ul.sub-nav1 {
+  line-height: 1px !important;
+}
+
+/* line 32, ../sass/_styles.scss */
 .nav-drop {
   position: relative;
   background-color: gray;
-  height: 40px;
   width: 100%;
   margin-bottom: 20px;
 }
-/* line 37, ../sass/_styles.scss */
-.nav-drop .sub-nav1 {
+/* line 38, ../sass/_styles.scss */
+.nav-drop .drop-container .sub-nav1 {
   float: right;
-  margin-bottom: 0px;
+  line-height: 1px !important;
+  margin-bottom: 14px;
 }
-/* line 40, ../sass/_styles.scss */
-.nav-drop .sub-nav1 li {
+/* line 42, ../sass/_styles.scss */
+.nav-drop .drop-container .sub-nav1 li {
   float: left;
   display: inline;
 }
-/* line 43, ../sass/_styles.scss */
-.nav-drop .sub-nav1 li a {
+/* line 45, ../sass/_styles.scss */
+.nav-drop .drop-container .sub-nav1 li a {
   color: white;
   display: inline-block;
   padding: 5px;
 }
 
-/* line 51, ../sass/_styles.scss */
+/* line 54, ../sass/_styles.scss */
 .arrow-up {
   width: 0;
   height: 0;
@@ -7328,13 +7333,13 @@ header .top-nav a {
   right: 346px;
 }
 
-/* line 62, ../sass/_styles.scss */
+/* line 65, ../sass/_styles.scss */
 .hero {
   height: 100%;
   width: 100%;
   margin: auto;
 }
-/* line 66, ../sass/_styles.scss */
+/* line 69, ../sass/_styles.scss */
 .hero .hero-pic {
   background-color: gray;
   border-bottom: 1px solid gray;
@@ -7345,48 +7350,48 @@ header .top-nav a {
   width: 100%;
 }
 
-/* line 77, ../sass/_styles.scss */
+/* line 80, ../sass/_styles.scss */
 .orbit-container {
   background: rgba(0, 0, 0, 0) !important;
 }
 
-/* line 80, ../sass/_styles.scss */
+/* line 83, ../sass/_styles.scss */
 .orbit-slide-number {
   display: none !important;
 }
 
-/* line 83, ../sass/_styles.scss */
+/* line 86, ../sass/_styles.scss */
 .orbit-timer {
   display: none !important;
 }
 
-/* line 86, ../sass/_styles.scss */
+/* line 89, ../sass/_styles.scss */
 .orbit-prev {
   display: none !important;
 }
 
-/* line 87, ../sass/_styles.scss */
+/* line 90, ../sass/_styles.scss */
 .orbit-next {
   display: none !important;
 }
 
-/* line 88, ../sass/_styles.scss */
+/* line 91, ../sass/_styles.scss */
 .orbit-caption {
   display: none !important;
 }
 
-/* line 89, ../sass/_styles.scss */
+/* line 92, ../sass/_styles.scss */
 .orbit-bullets {
   display: table;
   top: -40px !important;
 }
-/* line 92, ../sass/_styles.scss */
+/* line 95, ../sass/_styles.scss */
 .orbit-bullets li {
   text-align: center;
   margin: 5px;
 }
 
-/* line 101, ../sass/_styles.scss */
+/* line 104, ../sass/_styles.scss */
 .featured {
   margin-bottom: 60px;
 }

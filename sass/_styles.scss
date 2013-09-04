@@ -28,22 +28,25 @@ header {
 	}
 }
 
+ul.sub-nav1 {line-height: 1px !important;}
 .nav-drop {
 	position: relative;
 	background-color: gray;
-	height: 40px;
 	width: 100%;
 	margin-bottom: 20px;
-	.sub-nav1 {
-		float: right;
-		margin-bottom: 1px;
-		li {
-			float: left;
-			display: inline;
-			a {
-				color: white;
-				display: inline-block;
-				padding: 5px;
+	.drop-container {
+		.sub-nav1 {
+			float: right;
+			line-height: 1px !important;
+			margin-bottom: 14px;
+			li {
+				float: left;
+				display: inline;
+				a {
+					color: white;
+					display: inline-block;
+					padding: 5px;
+				}
 			}
 		}
 	}

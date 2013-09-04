@@ -2,7 +2,7 @@
 <body>
 <div class="nav-drop">
 	<div class="row">
-		<div class="large-12 columns">
+		<div class="large-6 columns centered drop-container">
 			<ul class="sub-nav1">
 				<li><a href="">nav item 1</a>
 				<li><a href="">nav item 1</a>
