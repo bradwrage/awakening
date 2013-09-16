@@ -33,6 +33,8 @@
 
 h1, h2, h3, h4, h5 {
     @include font-stack-avenir;
+    font-weight: 200;
+    text-transform: uppercase;
 }
 
 body {

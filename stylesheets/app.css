@@ -2404,7 +2404,7 @@ button, .button {
   border-width: 1px;
   cursor: pointer;
   font-family: inherit;
-  font-weight: bold;
+  font-weight: medium;
   line-height: 1;
   margin: 0 0 1.25em;
   position: relative;
@@ -7248,30 +7248,60 @@ a.th {
 /* line 34, ../sass/_typography.scss */
 h1, h2, h3, h4, h5 {
   font-family: 'AvenirLTStd-Light';
+  font-weight: 200;
+  text-transform: uppercase;
 }
 
-/* line 38, ../sass/_typography.scss */
+/* line 40, ../sass/_typography.scss */
 body {
   -webkit-font-smoothing: antialiased;
 }
 
 /* Regular */
 /* line 2, ../sass/_styles.scss */
+.abtn {
+  color: white;
+  background-color: #CFB74E;
+  text-transform: uppercase;
+  border: none;
+  box-shadow: none;
+}
+/* line 8, ../sass/_styles.scss */
+.abtn:hover {
+  background: #707070;
+}
+/* line 9, ../sass/_styles.scss */
+.abtn a {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/* line 15, ../sass/_styles.scss */
+.section {
+  margin-bottom: 50px;
+}
+
+/* line 18, ../sass/_styles.scss */
+.small-section {
+  margin-bottom: 30px;
+}
+
+/* line 21, ../sass/_styles.scss */
 header {
   height: 60px;
 }
-/* line 3, ../sass/_styles.scss */
+/* line 22, ../sass/_styles.scss */
 header .logo {
   padding-top: 70px;
   background: url("/assets/images/logo.png") no-repeat center center;
   height: 28px;
   width: 208px;
 }
-/* line 8, ../sass/_styles.scss */
+/* line 27, ../sass/_styles.scss */
 header .logo a {
   color: #333;
 }
-/* line 13, ../sass/_styles.scss */
+/* line 32, ../sass/_styles.scss */
 header .top-nav {
   font-family: 'AvenirLTStd-Light';
   text-transform: uppercase;
@@ -7279,49 +7309,47 @@ header .top-nav {
   float: right;
   padding-top: 10px;
 }
-/* line 19, ../sass/_styles.scss */
+/* line 38, ../sass/_styles.scss */
 header .top-nav li {
   float: left;
   display: inline;
 }
-/* line 23, ../sass/_styles.scss */
+/* line 42, ../sass/_styles.scss */
 header .top-nav a {
   color: #000000;
   display: inline-block;
   padding: 17px 10px 10px 10px;
 }
 
-/* line 31, ../sass/_styles.scss */
+/* line 50, ../sass/_styles.scss */
 ul.sub-nav1 {
   line-height: 1px !important;
 }
 
-/* line 32, ../sass/_styles.scss */
+/* line 51, ../sass/_styles.scss */
 .nav-drop {
   position: relative;
   background-color: gray;
   width: 100%;
   margin-bottom: 20px;
 }
-/* line 38, ../sass/_styles.scss */
+/* line 57, ../sass/_styles.scss */
 .nav-drop .drop-container .sub-nav1 {
-  float: right;
-  line-height: 1px !important;
   margin-bottom: 14px;
 }
-/* line 42, ../sass/_styles.scss */
+/* line 61, ../sass/_styles.scss */
 .nav-drop .drop-container .sub-nav1 li {
   float: left;
   display: inline;
 }
-/* line 45, ../sass/_styles.scss */
+/* line 64, ../sass/_styles.scss */
 .nav-drop .drop-container .sub-nav1 li a {
   color: white;
   display: inline-block;
   padding: 5px;
 }
 
-/* line 54, ../sass/_styles.scss */
+/* line 73, ../sass/_styles.scss */
 .arrow-up {
   width: 0;
   height: 0;
@@ -7333,13 +7361,13 @@ ul.sub-nav1 {
   right: 346px;
 }
 
-/* line 65, ../sass/_styles.scss */
+/* line 84, ../sass/_styles.scss */
 .hero {
   height: 100%;
   width: 100%;
   margin: auto;
 }
-/* line 69, ../sass/_styles.scss */
+/* line 88, ../sass/_styles.scss */
 .hero .hero-pic {
   background-color: gray;
   border-bottom: 1px solid gray;
@@ -7350,48 +7378,48 @@ ul.sub-nav1 {
   width: 100%;
 }
 
-/* line 80, ../sass/_styles.scss */
+/* line 99, ../sass/_styles.scss */
 .orbit-container {
   background: rgba(0, 0, 0, 0) !important;
 }
 
-/* line 83, ../sass/_styles.scss */
+/* line 102, ../sass/_styles.scss */
 .orbit-slide-number {
   display: none !important;
 }
 
-/* line 86, ../sass/_styles.scss */
+/* line 105, ../sass/_styles.scss */
 .orbit-timer {
   display: none !important;
 }
 
-/* line 89, ../sass/_styles.scss */
+/* line 108, ../sass/_styles.scss */
 .orbit-prev {
   display: none !important;
 }
 
-/* line 90, ../sass/_styles.scss */
+/* line 109, ../sass/_styles.scss */
 .orbit-next {
   display: none !important;
 }
 
-/* line 91, ../sass/_styles.scss */
+/* line 110, ../sass/_styles.scss */
 .orbit-caption {
   display: none !important;
 }
 
-/* line 92, ../sass/_styles.scss */
+/* line 111, ../sass/_styles.scss */
 .orbit-bullets {
   display: table;
   top: -40px !important;
 }
-/* line 95, ../sass/_styles.scss */
+/* line 114, ../sass/_styles.scss */
 .orbit-bullets li {
   text-align: center;
   margin: 5px;
 }
 
-/* line 104, ../sass/_styles.scss */
+/* line 123, ../sass/_styles.scss */
 .featured {
   margin-bottom: 60px;
 }
@@ -7450,4 +7478,62 @@ ul.sub-nav1 {
 .footerevent {
   margin-top: 0px !important;
   padding-top: 0px !important;
+}
+
+/* line 1, ../sass/_communities.scss */
+.hero-image {
+  padding-top: 16px;
+  margin-bottom: 16px;
+}
+
+/* line 6, ../sass/_communities.scss */
+.contact-us-directions {
+  margin-top: 78px;
+}
+
+/* line 10, ../sass/_communities.scss */
+.hr-title {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 16px;
+}
+
+/* line 16, ../sass/_communities.scss */
+.title-span {
+  color: black;
+  font-weight: bold;
+}
+
+/* line 21, ../sass/_communities.scss */
+.description-row {
+  margin-bottom: 20px;
+}
+
+/* line 1, ../sass/_resources.scss */
+.play {
+  width: 16px;
+  margin-right: 5px;
+  height: auto;
+}
+
+/* line 8, ../sass/_resources.scss */
+.resource-links {
+  display: inline-block;
+}
+/* line 10, ../sass/_resources.scss */
+.resource-links a {
+  padding-left: 20px;
+}
+/* line 13, ../sass/_resources.scss */
+.resource-links.watch {
+  background: url(../assets/images/play.png) no-repeat 0px 0px;
+  background: url(../assets/images/play.png) no-repeat 0px 0px;
+}
+/* line 16, ../sass/_resources.scss */
+.resource-links.podcast {
+  background: url(../assets/images/podcast.png) no-repeat 0px 0px;
+}
+/* line 19, ../sass/_resources.scss */
+.resource-links.notes {
+  background: url(../assets/images/notes.png) no-repeat 0px 0px;
 }

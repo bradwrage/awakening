@@ -1,0 +1,22 @@
+.play {
+	width: 16px;
+	margin-right: 5px;
+	height: auto;
+
+}
+
+.resource-links {
+	display: inline-block;
+	a {
+		padding-left: 20px;
+	}
+	&.watch {
+		background: url(../assets/images/play.png) no-repeat 0px 0px;background: url(../assets/images/play.png) no-repeat 0px 0px;
+	}
+	&.podcast {
+		background: url(../assets/images/podcast.png) no-repeat 0px 0px;
+	}
+	&.notes {
+		background: url(../assets/images/notes.png) no-repeat 0px 0px;
+	}
+}
