@@ -18,7 +18,7 @@
 		<h3>Who god made me to be (part 1)</h3>
 		<p>Sed posuere consectetur est at lobortis. Donec id elit non mi porta gravida at eget metus.</p>
 		<div class="row">
-			<div class="large-6 columns">
+			<div class="large-12 columns">
 				<div class="resource-links watch">
 					<a href="#">Watch Message</a>
 				</div>
@@ -29,13 +29,30 @@
 					<a href="#">Download notes</a>
 				</div>
 			</div>
-				<div class="large-6 columns">
+		</div>
+	</div>
+<hr />
+</div>
+<div class="row section">
+	<div class="large-12 columns small-section">
+		<h3>Who god made me to be (part 1)</h3>
+		<p>Sed posuere consectetur est at lobortis. Donec id elit non mi porta gravida at eget metus.</p>
+		<div class="row">
+			<div class="large-12 columns">
+				<div class="resource-links watch">
+					<a href="#">Watch Message</a>
+				</div>
+				<div class="resource-links podcast">
+					<a href="#">Listen to podcast</a>
+				</div>
+				<div class="resource-links notes">
+					<a href="#">Download notes</a>
+				</div>
 			</div>
 		</div>
 	</div>
 <hr />
 </div>
-
 
 
 <?php include("includes/_footer.php"); ?>

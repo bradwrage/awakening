@@ -7252,7 +7252,12 @@ h1, h2, h3, h4, h5 {
   text-transform: uppercase;
 }
 
-/* line 40, ../sass/_typography.scss */
+/* line 39, ../sass/_typography.scss */
+p {
+  color: #666666;
+}
+
+/* line 42, ../sass/_typography.scss */
 body {
   -webkit-font-smoothing: antialiased;
 }
@@ -7419,7 +7424,17 @@ ul.sub-nav1 {
   margin: 5px;
 }
 
-/* line 123, ../sass/_styles.scss */
+/* line 120, ../sass/_styles.scss */
+a {
+  color: #d2ba39;
+}
+
+/* line 124, ../sass/_styles.scss */
+.bottom-row {
+  margin-bottom: 50px !important;
+}
+
+/* line 130, ../sass/_styles.scss */
 .featured {
   margin-bottom: 60px;
 }
@@ -7483,7 +7498,7 @@ ul.sub-nav1 {
 /* line 1, ../sass/_communities.scss */
 .hero-image {
   padding-top: 16px;
-  margin-bottom: 16px;
+  margin-bottom: 30px;
 }
 
 /* line 6, ../sass/_communities.scss */
@@ -7519,21 +7534,54 @@ ul.sub-nav1 {
 /* line 8, ../sass/_resources.scss */
 .resource-links {
   display: inline-block;
+  margin-right: 20px;
 }
-/* line 10, ../sass/_resources.scss */
+/* line 11, ../sass/_resources.scss */
 .resource-links a {
   padding-left: 20px;
 }
-/* line 13, ../sass/_resources.scss */
+/* line 14, ../sass/_resources.scss */
 .resource-links.watch {
   background: url(../assets/images/play.png) no-repeat 0px 0px;
   background: url(../assets/images/play.png) no-repeat 0px 0px;
 }
-/* line 16, ../sass/_resources.scss */
+/* line 17, ../sass/_resources.scss */
 .resource-links.podcast {
   background: url(../assets/images/podcast.png) no-repeat 0px 0px;
 }
-/* line 19, ../sass/_resources.scss */
+/* line 20, ../sass/_resources.scss */
 .resource-links.notes {
   background: url(../assets/images/notes.png) no-repeat 0px 0px;
+}
+
+/* line 2, ../sass/_staff.scss */
+.staff-items h4 {
+  margin-bottom: 0px;
+  margin-top: 10px;
+}
+/* line 3, ../sass/_staff.scss */
+.staff-items h5 {
+  margin-top: 0px;
+}
+/* line 4, ../sass/_staff.scss */
+.staff-items p {
+  color: #666666;
+  margin-bottom: 5px;
+}
+/* line 8, ../sass/_staff.scss */
+.staff-items .staff-container {
+  margin-bottom: 20px;
+}
+/* line 12, ../sass/_staff.scss */
+.staff-items .double-staff {
+  line-height: 25px;
+}
+/* line 15, ../sass/_staff.scss */
+.staff-items .double-title {
+  margin-top: 3px;
+}
+
+/* line 21, ../sass/_staff.scss */
+.profile-links {
+  display: block;
 }
