@@ -7463,6 +7463,11 @@ a {
   margin-bottom: 60px;
 }
 
+/* line 157, ../sass/_styles.scss */
+.top-bar {
+  z-index: 10000;
+}
+
 /* line 1, ../sass/_footer.scss */
 .footer-background {
   background-color: #626262;

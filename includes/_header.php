@@ -29,11 +29,11 @@
 				<span class="arrow-up"></span>
 			</ul>
 		</div>
-
+</div>
 <nav class="top-bar show-for-small">
 	<ul class="title-area">
 		<li class="name">
-			<h1><a href="#">Logo</a></h1>
+			<h1><a href="#">Awakening</a></h1>
 		</li>
 		<li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
 	</ul>
@@ -61,7 +61,5 @@
 		</ul>
 
 	</section>
-
 </nav>
-</div>
 </header>
