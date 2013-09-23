@@ -1,13 +1,14 @@
 <?php include("includes/_header.php"); ?>
 <body>
 <div class="nav-drop">
-	<div class="row">
-		<div class="large-6 columns drop-container">
+	<div class="row nav-items">
+		<div class="large-12 columns drop-container">
 			<ul class="sub-nav1">
-				<li><a href="">nav item 1</a></li>
-				<li><a href="">nav item 1</a></li>
-				<li><a href="">nav item 1</a></li>
+				<li><a href="">nav item 1</a>|</li>
+				<li><a href="">nav item 1</a>|</li>
+				<li><a href="">nav item 1</a>|</li>
 			</ul>
+			<span class="white-arrow"></span>
 		</div>
 	</div>
 </div>
