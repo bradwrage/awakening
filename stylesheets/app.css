@@ -7361,12 +7361,14 @@ ul.sub-nav1 {
 }
 /* line 77, ../sass/_styles.scss */
 .nav-drop .drop-container .sub-nav1 li a {
+  margin-right: 10px;
+  margin-left: 10px;
   color: white;
   display: inline-block;
   padding: 5px;
 }
 
-/* line 86, ../sass/_styles.scss */
+/* line 88, ../sass/_styles.scss */
 .arrow-up {
   width: 0;
   height: 0;
@@ -7378,7 +7380,7 @@ ul.sub-nav1 {
   right: 334px;
 }
 
-/* line 96, ../sass/_styles.scss */
+/* line 98, ../sass/_styles.scss */
 .white-arrow {
   width: 0;
   height: 0;
@@ -7390,13 +7392,13 @@ ul.sub-nav1 {
   right: 574px;
 }
 
-/* line 107, ../sass/_styles.scss */
+/* line 109, ../sass/_styles.scss */
 .hero {
   height: 100%;
   width: 100%;
   margin: auto;
 }
-/* line 111, ../sass/_styles.scss */
+/* line 113, ../sass/_styles.scss */
 .hero .hero-pic {
   background-color: gray;
   border-bottom: 1px solid gray;
@@ -7407,63 +7409,63 @@ ul.sub-nav1 {
   width: 100%;
 }
 
-/* line 122, ../sass/_styles.scss */
+/* line 124, ../sass/_styles.scss */
 .orbit-container {
   background: rgba(0, 0, 0, 0) !important;
 }
 
-/* line 125, ../sass/_styles.scss */
+/* line 127, ../sass/_styles.scss */
 .orbit-slide-number {
   display: none !important;
 }
 
-/* line 128, ../sass/_styles.scss */
+/* line 130, ../sass/_styles.scss */
 .orbit-timer {
   display: none !important;
 }
 
-/* line 131, ../sass/_styles.scss */
+/* line 133, ../sass/_styles.scss */
 .orbit-prev {
   display: none !important;
 }
 
-/* line 132, ../sass/_styles.scss */
+/* line 134, ../sass/_styles.scss */
 .orbit-next {
   display: none !important;
 }
 
-/* line 133, ../sass/_styles.scss */
+/* line 135, ../sass/_styles.scss */
 .orbit-caption {
   display: none !important;
 }
 
-/* line 134, ../sass/_styles.scss */
+/* line 136, ../sass/_styles.scss */
 .orbit-bullets {
   display: table;
   top: -40px !important;
 }
-/* line 137, ../sass/_styles.scss */
+/* line 139, ../sass/_styles.scss */
 .orbit-bullets li {
   text-align: center;
   margin: 5px;
 }
 
-/* line 143, ../sass/_styles.scss */
+/* line 145, ../sass/_styles.scss */
 a {
   color: #d2ba39;
 }
 
-/* line 147, ../sass/_styles.scss */
+/* line 149, ../sass/_styles.scss */
 .bottom-row {
   margin-bottom: 50px !important;
 }
 
-/* line 153, ../sass/_styles.scss */
+/* line 155, ../sass/_styles.scss */
 .featured {
   margin-bottom: 60px;
 }
 
-/* line 157, ../sass/_styles.scss */
+/* line 159, ../sass/_styles.scss */
 .top-bar {
   z-index: 10000;
 }
