@@ -73,6 +73,7 @@
 	<script src="javascripts/foundation/foundation.tooltips.js"></script>
 	
 	<script src="javascripts/foundation/foundation.topbar.js"></script>
+	<script src="javascripts/app.js"></script>
 	
   
   <script>

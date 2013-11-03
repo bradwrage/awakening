@@ -20,7 +20,7 @@
 		</div>
 		<div class="large-9 columns">
 			<ul class="top-nav">
-				<li><a href="">vision</a></li>
+				<li class="thevision"><a href="">vision</a></li>
 				<li><a href="">visit</a></li>
 				<li><a href="">community</a></li>
 				<li><a href="">equip</a></li>
