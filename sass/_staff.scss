@@ -1,20 +1,66 @@
 .staff-items {
-h4 {margin-bottom: 0px;margin-top: 10px;}
-h5 {margin-top: 0px;}
-p {
-	color: #666666;
-	margin-bottom: 5px;
-}
-.staff-container {
-	margin-bottom: 20px;
-}
 
-.double-staff {
-	line-height: 25px;
-}
-.double-title {
-	margin-top: 3px;
-}
+	.photo-image {
+		display: block;
+		width: 235px;
+		height: 235px;
+		 &.ryan {
+			background-image: url('/assets/images/staff/ryan.png');
+		}
+		&.jay {
+			background-image: url('/assets/images/staff/jay.png');
+		}
+		&.tony {
+			background-image: url('/assets/images/staff/tony.png');
+		}
+		&.mike {
+			background-image: url('/assets/images/staff/mike.png');
+		}
+		&.micahmichelle {
+			background-image: url('/assets/images/staff/micahmichelle.png');
+		}
+		&.marny {
+			background-image: url('/assets/images/staff/micahmichelle.png');
+		}
+		&.nicole {
+			background-image: url('/assets/images/staff/nicole.png');
+		}
+		
+
+		
+		
+		 @media 
+			(-webkit-min-device-pixel-ratio: 2), 
+			(min-resolution: 192dpi) { 
+	 			&.ryan {
+					background-image: url('/assets/images/staff/ryan-large.png');
+				}
+				&.jay {
+				background-image: url('/assets/images/staff/jay-large.png');
+				}
+		}
+	}
+
+	h4 {margin-bottom: 0px;margin-top: 10px;}
+	h5 {margin-top: 0px;}
+	p {
+		color: #666666;
+		margin-bottom: 5px;
+	}
+	.staff-container {
+		margin-bottom: 20px;
+		p {
+			line-height: 22px;
+			margin-bottom: 15px;
+		}
+	}
+
+	.double-staff {
+		line-height: 25px;
+	}
+	.double-title {
+		margin-top: 3px;
+	}
 }
 
 

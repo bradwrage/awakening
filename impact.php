@@ -1,6 +1,17 @@
 <?php include("includes/_header.php"); ?>
 <body>
-
+	<div class="nav-drop">
+	<div class="row nav-items">
+		<div class="large-12 columns drop-container">
+			<ul class="sub-nav1">
+				<li><a href="">our vision</a>|</li>
+				<li><a href="">our impact</a>|</li>
+				<li><a href="">our leaders</a>|</li>
+			</ul>
+			<span class="white-arrow"></span>
+		</div>
+	</div>
+</div>
 <div class="row">
 	<div class="large-12 columns hero-image">
 		<img src="../assets/images/impact.png" />

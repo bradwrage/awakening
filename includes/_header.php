@@ -20,10 +20,10 @@
 		</div>
 		<div class="large-9 columns">
 			<ul class="top-nav">
-				<li class="thevision"><a href="">vision</a></li>
+				<li class="thevision"><a href="">about</a></li>
 				<li><a href="">visit</a></li>
 				<li><a href="">community</a></li>
-				<li><a href="">equip</a></li>
+				<li><a href="">resources</a></li>
 				<li><a href="">blog</a></li>
 				<li><a href="">give</a></li>
 				<span class="arrow-up"></span>
