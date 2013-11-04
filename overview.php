@@ -29,13 +29,23 @@
 </div>
 
 <div class="row description-row bottom-row">
-	<div class="large-6 columns">
-		<img src="../assets/images/visit/picture2.png" />
-	</div>
-	<div class="large-6 columns description-row">
-		<h4>What to expect</h4>
-		<p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam porta sem malesuada magna mollis euismod. Vestibulum id ligula porta felis euismod semper. Nullam quis risus eget urna mollis ornare vel eu leo.</p>
-	</div>
+	<ul class="large-block-grid-3">
+		<li>
+			<img src="../assets/images/communities.png" />
+			<h4>Kids</h4>
+			<p>Kids matter to us at Awakening! Our heart is for families and we know that nothing matters more to parents than our kids. Awakening Kids is centered on inspiring families to discover the heart of God together.</p>
+			<a href="">Learn more about Kids ››</a>
+		</li>
+		<li>
+			<img src="../assets/images/communities.png" />
+			<h4>Women at Awakening</h4>
+			<p>Kids matter to us at Awakening! Our heart is for families and we know that nothing matters more to parents than our kids. Awakening Kids is centered on inspiring families to discover the heart of God together.</p>
+			<a href="">Learn more about Kids ››</a></li>
+		<li><img src="../assets/images/communities.png" />
+			<h4>Intro</h4>
+			<p>Kids matter to us at Awakening! Our heart is for families and we know that nothing matters more to parents than our kids. Awakening Kids is centered on inspiring families to discover the heart of God together.</p>
+			<a href="">Learn more about Kids ››</a></li>
+	</ul>
 </div>
 
 

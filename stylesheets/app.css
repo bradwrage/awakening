@@ -7681,6 +7681,7 @@ a {
 /* line 1, ../sass/_overview.scss */
 .centered {
   text-align: center;
+  margin-bottom: 40px;
 }
 
 /* line 1, ../sass/_visit.scss */
