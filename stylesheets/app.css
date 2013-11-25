@@ -7297,23 +7297,29 @@ body {
 .nav-items {
   height: 30px;
 }
+@media only screen and (max-width: 767px) {
+  /* line 21, ../sass/_styles.scss */
+  .nav-items {
+    display: none;
+  }
+}
 
-/* line 26, ../sass/_styles.scss */
+/* line 29, ../sass/_styles.scss */
 header {
   height: 60px;
 }
-/* line 27, ../sass/_styles.scss */
+/* line 30, ../sass/_styles.scss */
 header .logo {
   padding-top: 70px;
   background: url("/assets/images/logo.png") no-repeat center center;
   height: 28px;
   width: 208px;
 }
-/* line 32, ../sass/_styles.scss */
+/* line 35, ../sass/_styles.scss */
 header .logo a {
   color: #333;
 }
-/* line 37, ../sass/_styles.scss */
+/* line 40, ../sass/_styles.scss */
 header .top-nav {
   font-family: 'AvenirLTStd-Light';
   text-transform: uppercase;
@@ -7321,19 +7327,19 @@ header .top-nav {
   float: right;
   padding-top: 10px;
 }
-/* line 43, ../sass/_styles.scss */
+/* line 46, ../sass/_styles.scss */
 header .top-nav li {
   float: left;
   display: inline;
 }
-/* line 47, ../sass/_styles.scss */
+/* line 50, ../sass/_styles.scss */
 header .top-nav a {
   color: #000000;
   display: inline-block;
   padding: 17px 10px 10px 10px;
 }
 
-/* line 55, ../sass/_styles.scss */
+/* line 58, ../sass/_styles.scss */
 ul.sub-nav1 {
   font-family: 'AvenirLTStd-Light';
   text-transform: uppercase;
@@ -7345,23 +7351,23 @@ ul.sub-nav1 {
   right: 370px;
 }
 
-/* line 65, ../sass/_styles.scss */
+/* line 68, ../sass/_styles.scss */
 .nav-drop {
   position: relative;
   background-color: gray;
   width: 100%;
   margin-bottom: 20px;
 }
-/* line 71, ../sass/_styles.scss */
+/* line 74, ../sass/_styles.scss */
 .nav-drop .drop-container .sub-nav1 {
   margin-bottom: 14px;
 }
-/* line 75, ../sass/_styles.scss */
+/* line 78, ../sass/_styles.scss */
 .nav-drop .drop-container .sub-nav1 li {
   float: left;
   display: inline;
 }
-/* line 78, ../sass/_styles.scss */
+/* line 81, ../sass/_styles.scss */
 .nav-drop .drop-container .sub-nav1 li a {
   margin-right: 10px;
   margin-left: 10px;
@@ -7370,7 +7376,7 @@ ul.sub-nav1 {
   padding: 5px;
 }
 
-/* line 89, ../sass/_styles.scss */
+/* line 92, ../sass/_styles.scss */
 .arrow-up {
   width: 0;
   height: 0;
@@ -7382,7 +7388,7 @@ ul.sub-nav1 {
   right: 334px;
 }
 
-/* line 99, ../sass/_styles.scss */
+/* line 102, ../sass/_styles.scss */
 .white-arrow {
   width: 0;
   height: 0;
@@ -7394,13 +7400,13 @@ ul.sub-nav1 {
   right: 574px;
 }
 
-/* line 110, ../sass/_styles.scss */
+/* line 113, ../sass/_styles.scss */
 .hero {
   height: 100%;
   width: 100%;
   margin: auto;
 }
-/* line 114, ../sass/_styles.scss */
+/* line 117, ../sass/_styles.scss */
 .hero .hero-pic {
   background-color: gray;
   border-bottom: 1px solid gray;
@@ -7411,68 +7417,68 @@ ul.sub-nav1 {
   width: 100%;
 }
 
-/* line 125, ../sass/_styles.scss */
+/* line 128, ../sass/_styles.scss */
 .orbit-container {
   background: rgba(0, 0, 0, 0) !important;
 }
 
-/* line 128, ../sass/_styles.scss */
+/* line 131, ../sass/_styles.scss */
 .orbit-slide-number {
   display: none !important;
 }
 
-/* line 131, ../sass/_styles.scss */
+/* line 134, ../sass/_styles.scss */
 .orbit-timer {
   display: none !important;
 }
 
-/* line 134, ../sass/_styles.scss */
+/* line 137, ../sass/_styles.scss */
 .orbit-prev {
   display: none !important;
 }
 
-/* line 135, ../sass/_styles.scss */
+/* line 138, ../sass/_styles.scss */
 .orbit-next {
   display: none !important;
 }
 
-/* line 136, ../sass/_styles.scss */
+/* line 139, ../sass/_styles.scss */
 .orbit-caption {
   display: none !important;
 }
 
-/* line 137, ../sass/_styles.scss */
+/* line 140, ../sass/_styles.scss */
 .orbit-bullets {
   display: table;
   top: -40px !important;
 }
-/* line 140, ../sass/_styles.scss */
+/* line 143, ../sass/_styles.scss */
 .orbit-bullets li {
   text-align: center;
   margin: 5px;
 }
 
-/* line 146, ../sass/_styles.scss */
+/* line 149, ../sass/_styles.scss */
 a {
   color: #d2ba39;
 }
 
-/* line 150, ../sass/_styles.scss */
+/* line 153, ../sass/_styles.scss */
 .bottom-row {
   margin-bottom: 50px !important;
 }
 
-/* line 154, ../sass/_styles.scss */
+/* line 157, ../sass/_styles.scss */
 .no-title-margin {
   padding-top: 46px;
 }
 
-/* line 160, ../sass/_styles.scss */
+/* line 163, ../sass/_styles.scss */
 .featured {
   margin-bottom: 60px;
 }
 
-/* line 164, ../sass/_styles.scss */
+/* line 167, ../sass/_styles.scss */
 .top-bar {
   z-index: 10000;
 }

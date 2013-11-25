@@ -8,7 +8,7 @@
 				<li><a href="">overview</a>|</li>
 				<li><a href="">communities</a>|</li>
 				<li><a href="">kids</a>|</li>
-				<li><a href="">women at awakening</a>|</li>
+				<li><a href="">women at awakening</a></li>
 			</ul>
 			<span class="white-arrow"></span>
 		</div>
